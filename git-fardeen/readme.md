@@ -48,5 +48,8 @@ when we want to stage changes that will be included in the commit we can use the
 reset allows you to remove staged files staged changes to unstaged changes
 
 ## stash
+stash is for temporary saving your work
 
-
+create stash: git stash
+show stashes: git stash list
+remove stash (latest one): git stash pop
