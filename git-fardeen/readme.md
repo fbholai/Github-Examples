@@ -47,9 +47,6 @@ when we want to stage changes that will be included in the commit we can use the
 ## reset
 reset allows you to remove staged files staged changes to unstaged changes
 
-
 ## stash
-You can use stashing for putting your work aside before making a commit
 
-to create a stash: git stash
-to show the stashes: git stash list
+
