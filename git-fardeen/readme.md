@@ -23,6 +23,10 @@ git config --global user.name "test"
 git config --global user.email ssd@sdsd.com
 #make changes to readme.md
 git commit -a -m "add description" (-a tells git to automatically stage files that have been modified)
+git commit --amend (modifies the most recent commit)
+git commit -m "" --allow-empty (creates an empty commit)
+git commit -m "" --author ="author name email@example.com"
+git checkout <commit id>
 ```
 ## cloning 
 we can clone in three ways: https, ssh and github CLI
