@@ -13,5 +13,5 @@ provider "github" {
 
 resource "github_branch" "development" {
   repository = "Github-Examples"
-  branch     = "sdks"
+  branch     = "sdksfardeen"
 }
